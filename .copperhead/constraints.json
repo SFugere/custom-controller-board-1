@@ -1,0 +1,10 @@
+{
+  "form_factor.keyboard_layout": {
+    "value": "60% keyboard layout",
+    "source": "docs/BRIEF.md",
+    "affects": [
+      "docs/BRIEF.md",
+      "docs/SPEC.md"
+    ]
+  }
+}

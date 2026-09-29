@@ -1,0 +1,1 @@
+- 2026-09-29 [run 2026-09-29T02-19-10-037Z] Changed the target form factor from 40% to 60% keyboard layout. | why: The user explicitly requested a 60% layout, and keeping the old size in the brief would misstate the product intent. | affects: docs/BRIEF.md
