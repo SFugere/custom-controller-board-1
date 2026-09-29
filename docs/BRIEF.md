@@ -1,15 +1,3 @@
-# The brief
+# Custom controller board 1
 
-Describe the board you want: what it does, the parts it must use, the
-interfaces it exposes, and the constraints that bound the layout.
-
-A hosted `create` run overwrites this file with the brief you typed in the
-console, then works from it.
-
-## What makes a brief usable
-
-- **Parts** by designator where you care, and by function where you do not.
-- **Power**: what comes in, what rails come out, and how much current.
-- **Interfaces**: every connector and bus, and what is on it.
-- **Constraints**: layer count, board outline, assembly method, and anything
-  the board must not do.
+A board that is the size of a 40% keyboard. It's controller is a Brook Gen-5X mini Fighting board. It has a series of cherry red keyboard switches that connect to pins on the Brook board, The switches will be placed in traditional 40% keyboard locations and mapped as followed: W goes to LS_U, A goes to LS_L, S goes to LS_D, D goes to LS_R. Cross goes to J, Circle goes to K, Square goes to U, Triangle goes to I, R1 goes to O, L2 goes to Y, L1 goes to P, R2 goes to L, R3 goes to Spacebar, L3 goes to 7, Select goes to back space, option goes to Tab, PS key goes to Esc key. All of the switches on keys are also bound to a ground.  This will also connect to a USB heade, allowing a USB C to usb A cable to be lugged in, and a Bluetooth module to be used. As well as a small OLED screen.
